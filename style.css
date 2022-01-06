@@ -29,12 +29,12 @@ section{
 .half-width img{
     width: 80%;
 }
-.half-width p{
+p{
     color: #3E3E3E;
     font-size: 18px;
     margin-bottom: 40px;
 }
-.button{
+.button-link{
     text-decoration: none;
     background-color: #FF5959;
     padding: 10px 40px;
@@ -52,13 +52,13 @@ section{
     font-size: 48px;
     text-align: center;
 }
-.box{
+.mission-item{
     width: 25%;
     margin: 0 auto;
     padding: 50px 35px 15px;
     border-radius: 25px;
 }
-.box img{
+.mission-item img{
     width: 30%;
 }
 .mission-section .flexible-section{
@@ -66,13 +66,91 @@ section{
 }
 .mission-section p{
     color: #424242;
+    font-size: 16px;
 }
-#box-1{
+.mission{
     background-color: rgba(79, 157, 166, 0.1);
 }
-#box-2{
+.vision{
     background-color: rgba(255, 89, 89, 0.1);
 }
-#box-3{
+.goal{
     background-color: #FFF4D6;
+}
+.blog-section{
+    margin: auto 10%;
+}
+.blog-image {
+    width: 100%;
+    margin-right: 70px;
+}
+.blog-image img{
+    width: 100%;
+}
+.blog-text h1{
+    font-size: 36px;
+    color: #333333;
+    margin-top: 0;
+}
+.blog-text .button-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.contact-section{
+    margin: 80px 100px;
+}
+.contact-section h2{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.contact-section p{
+    color: #999999;
+    text-align: center;
+    font-size: 16px;
+}
+.contact-item{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+.contact-item p{
+    color: #111111;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-item h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px;
+    text-align: center;
+    color: #999999;
+    letter-spacing: 4px;
+    font-family: 'Abril Fatface', cursive;
+}
+.contact-item img{
+    width: 70px;
+}
+footer{
+    background-color: #0B0D17;
+    height: 165px;
+    text-align: center;
+    padding-top: 15px;
+}
+footer h1{
+    font-family: 'Lobster', cursive;
+    color: #FFFFFF;
+    letter-spacing: 0.5px;
+    font-size: 36px;
+}
+footer h1 span{
+    color: #FF5959;
+}
+footer small{
+    color:#D9DBE1;
+    font-family: 'Manrope', sans-serif;
 }
